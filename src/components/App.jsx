@@ -58,7 +58,7 @@ export class App extends React.Component {
 
         <h2>Contacts</h2>
         <Filter filter={this.changeFilter} />
-        <ContactList markup={getVisibleContacts}
+        <ContactList visibleContacts={getVisibleContacts}
           deleteContact={this.deleteContact} />
 
       </div>

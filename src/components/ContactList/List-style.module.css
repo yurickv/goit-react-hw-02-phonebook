@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 20px;
   background-color: beige;
+  width: 700px;
 }
 .contactItem {
   display: flex;
